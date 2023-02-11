@@ -1,0 +1,214 @@
+body{
+    background-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+background-color: rgb(250, 110, 52) ;
+border-bottom-left-radius: 15%;
+color: white;
+}
+
+header .blog ul li a{
+    color: white;
+    font-size: 50%;
+}
+.blog{
+       display: flex;
+       justify-content: space-around;
+       margin-left: -18%;
+       
+}
+
+
+.blog ul.one{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    list-style: none;
+    margin-left: -35%;
+    border-radius: 10%;
+    
+}
+
+
+
+
+ul.two{
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    gap: 30%;
+    list-style: none;
+    margin-right: -10%;
+    
+}
+ul.two li a{
+    background: orange;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.blow p{
+    font-size: 50%;
+}
+.blow{
+   text-align: center;
+   color: white;
+}
+.bloo li a{
+    /* color: white; */
+    font-size: 50%;
+    border-radius: 5%;
+}
+.bloo{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 4%;
+    }
+    .bloo li a{
+        background: white;
+        color: orange;
+        border-radius: 5%;
+    }
+
+    h2.ooo{
+        text-align: left;
+        color: darkslateblue;
+        margin-left: 7%;
+        margin-top: -29%;
+    }
+    h3.nnn{
+        margin-left: 7%;
+        color: darkslateblue;
+    }
+    h6.eee{
+        margin-left: 7%;
+        color: darkslateblue;
+    }
+
+    .thuuu {
+        background-color: white;
+    }
+    .thuuu img{
+        margin-left: 70%;
+        margin-top: 5%;
+        max-width: 700%;
+        color: darkslateblue;
+    }
+    .ppp img{
+        margin-right: 50%;
+        margin-top: -20%;
+        max-width: 40%;
+        color: darkslateblue;
+
+        
+    }
+    .ppp{
+        text-align: right;
+        justify-content: left;
+        background-color: darkslateblue;
+        height: 70%;
+        width: 100%;
+        border-top-right-radius: 8%;
+        border-bottom-left-radius: 8%;
+    }
+    h3.opp{
+        /* text-align: right; */
+        margin-left: 60%;
+        text-align: justify;
+        justify-content: left;
+        color: white;
+        margin-top: -20%;
+
+    }
+    p.opp{
+        /* text-align: right; */
+        margin-left: 60%;
+        text-align: justify;
+        justify-content: left;
+        color: white;
+
+    }
+    .thuu {
+        background-color: white;
+    }
+    .thuu img{
+        margin-right: 50%;
+        margin-top: -20%;
+        max-width: 60%;
+        color: darkslateblue;
+
+        
+    }
+    h3.hom{
+        /* text-align: right; */
+        margin-left: 60%;
+        text-align: justify;
+        justify-content: left;
+        color: darkslateblue;
+margin-top: -20%;
+    }
+    h6.home{
+        /* text-align: right; */
+        margin-left: 60%;
+        text-align: justify;
+        justify-content: left;
+        color: darkslateblue;
+    }
+    /* p.opp{
+        margin-right: 5%;
+    } */
+
+    .blogi h2{
+        color: white;
+    }
+    .blogi ul{
+        color: white;
+    }
+.blogi{
+    display: flex;
+    background-color: darkslateblue;
+    justify-content: space-around;
+        }
+
+        .blogi ul.onei{
+            display: flex;
+            align-items: center;
+            gap: 30%;
+            list-style: none;
+            margin-right: 30%;
+        }
+            .thur{
+                    background-color: darkslateblue;
+                    height: 300px;
+                    width: 100%;
+                }
+                .thur ul.onei{
+                    display: flex;
+                    background-color: darkslateblue;
+                    justify-content: space-between;
+                    /* gap: 0%; */
+                    list-style: none;
+                    margin-right: 50%;
+                    margin-left: 20%;
+                    color: white;
+                        }
+                        .thur ul.onei a{
+                             color: white;
+                                }
+                            .thur h2{
+                                color: white;
+                                margin-left: 10%;
+                            }
+
+
+@media (max-width:500px){
+    body{
+        background-color: brown;
+        position: relative;
+    }
+}
